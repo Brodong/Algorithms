@@ -97,3 +97,9 @@ int main()
     return 0;
 }
 
+
+/*
+please input 5 words:the the right new hold
+please input a word:the
+Find the word! The count of this word is 2.
+*/
