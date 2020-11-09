@@ -13,12 +13,12 @@ int main()
     for(i=0;i<=10;i++)
         mystack.push(i);
     // size
-    printf("The size of the stack is %d.\n", mystack.size());
+    printf("The size of the stack is %ld.\n", mystack.size());
     // top & empty
     while(!mystack.empty())
     {
-        printf("The top of the stack is %d.\n", mystack.pop());
-        mystak.pop();
+        printf("The top of the stack is %d.\n", mystack.top());
+        mystack.pop();
     }
     /* std::cout << "Hello world" << std::endl; */
     return 0;
